@@ -19,18 +19,17 @@ def index() -> rx.Component:
             about(DATA.about),
             rx.divider(),
             tech_stack(DATA.technologies),
-            info("Experiencia", DATA.experience),
-            info("Proyectos", DATA.projects),
-            info("Formación", DATA.training),
-            extra(DATA.extras),
+            info("Work experience", DATA.experience),
+            info("Projects", DATA.projects),
+            info("Education", DATA.training),
             rx.divider(),
             footer(DATA.media),
             spacing=Size.MEDIUM.value,
             padding_x=EmSize.MEDIUM.value,
             padding_y=EmSize.BIG.value,
             max_width=MAX_WIDTH,
-            width="100%"
-        )
+            width="100%",
+        ),
     )
 
 
@@ -39,9 +38,10 @@ app = rx.App(
     style=BASE_STYLE,
     theme=rx.theme(
         appearance="dark",
-        accent_color="grass",
-        radius="full"
-    )
+        accent_color="jade",
+        radius="full",
+        scaling="110%",
+    ),
 )
 
 title = DATA.title
@@ -56,6 +56,6 @@ app.add_page(
     meta=[
         {"name": "og:title", "content": title},
         {"name": "og:description", "content": description},
-        {"name": "og:image", "content": image}
-    ]
+        {"name": "og:image", "content": image},
+    ],
 )

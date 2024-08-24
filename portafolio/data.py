@@ -16,7 +16,19 @@ class Technology:
 
 
 class Info:
-    def __init__(self, icon, title, subtitle, description, date="", certificate="", technologies=[], image="", url="", github=""):
+    def __init__(
+        self,
+        icon,
+        title,
+        subtitle,
+        description,
+        date="",
+        certificate="",
+        technologies=[],
+        image="",
+        url="",
+        github="",
+    ):
         self.icon = icon
         self.title = title
         self.subtitle = subtitle
@@ -40,20 +52,19 @@ class Extra:
 class Data:
     def __init__(
         self,
-            title,
-            description,
-            image,
-            avatar,
-            name,
-            skill,
-            location,
-            media,
-            about,
-            technologies,
-            experience,
-            projects,
-            training,
-            extras
+        title,
+        description,
+        image,
+        avatar,
+        name,
+        skill,
+        location,
+        media,
+        about,
+        technologies,
+        experience,
+        projects,
+        training,
     ):
         self.title = title
         self.description = description
@@ -68,7 +79,6 @@ class Data:
         self.experience = [Info(**info) for info in experience]
         self.projects = [Info(**info) for info in projects]
         self.training = [Info(**info) for info in training]
-        self.extras = [Extra(**info) for info in extras]
 
 
 with open("assets/data/data.json") as file:

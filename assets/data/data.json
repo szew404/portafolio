@@ -1,62 +1,69 @@
 {
-    "title": "Thomas A. Anderson (Neo) | Portafolio",
-    "description": "Soy Neo, posiblemente el mejor programador de la historia.",
+    "title": "Franco Gidaszewski | Portfolio",
+    "description": "Backend Developer specialized in Python, FastAPI, Django",
     "image": "/avatar.jpg",
-    "avatar": "/avatar.jpg",
-    "name": "Thomas A. Anderson (Neo)",
-    "skill": "Programador, hacker y el Elegido",
-    "location": "Matrix y el mundo real",
+    "avatar": "/avatar.jpeg",
+    "name": "Franco Gidaszewski",
+    "skill": "Backend Developer",
+    "location": "Berlin, Germany",
     "media": {
-        "email": "neo@metacortex.com",
+        "email": "gidaszewskifranco@gmail.com",
         "cv": "/data/cv.pdf",
-        "github": "https://github.com/thomasanderson",
-        "likedin": "https://linkedin.com/in/thomasanderson"
+        "github": "https://github.com/gidaszewski",
+        "likedin": "https://www.linkedin.com/in/franco-gidaszewski/"
     },
-    "about": "Soy un programador inquieto con una doble vida, ya que trabajo en una prestigiosa empresa de software pero también he cometido todos los crímenes informáticos que existen. Tengo la sensación de que nada es lo que parece ser.",
+    "about": "Backend Developer with over two years of hands-on experience in API and web applications development, seeking full- time Backend Developer roles in Berlin. Specializing in Python, I am driven by a passion for leveraging cutting-edge technology to deliver tailored software solutions that address the unique needs of businesses.",
     "technologies": [
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "Binario"
-        },
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "Ensamblador"
-        },
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "COBOL"
-        },
-        {
-            "icon": "devicon-c-plain",
-            "name": "C"
-        },
         {
             "icon": "devicon-python-plain",
             "name": "Python"
+        },
+        {
+            "icon": "devicon-django-plain",
+            "name": "Django-REST"
+        },
+        {
+            "icon": "devicon-devicon-plain",
+            "name": "FastAPI"
+        },
+        {
+            "icon": "devicon-docker-plain",
+            "name": "Docker"
+        },
+        {
+            "icon": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
         }
     ],
     "experience": [
         {
-            "icon": "terminal",
-            "title": "Metacortex",
-            "subtitle": "Programador",
-            "description": "Programo software respetable desde un cubículo.",
-            "date": "1999"
+            "icon": "box",
+            "title": "Linkacode",
+            "subtitle": "Co-Founder & Backend Engineer",
+            "description": "Linkacode is a side project that I coordinate together with colleagues in which we offer cutting-edge software solutions. My main tasks are to lead and execute the projects following the appropriate methodologies. The last project in which I was part of the development team was the creation and implementation of an API for one of the most important technological universities in Argentina. We improve the productivity of students, professors and university workers thanks to our software. We increased student use of the website by 25% thanks to our API that facilitates quick access to each student's class schedule. The technologies I used and implemented were: Python, Django & Django Rest, PostgreSQL, Linux, Git, Trello.",
+            "date": "February 2024"
         },
         {
-            "icon": "rabbit",
-            "title": "Nebuchadnezzar",
-            "subtitle": "El Elegido",
-            "description": "Me encargo de salvar el mundo.",
-            "date": "1999 - Actualidad"
+            "icon": "graduation-cap",
+            "title": "UTN Haedo",
+            "subtitle": "Full Stack Developer",
+            "description": "I developed plugins and web components that helped increase the productivity of the workers using the website. I helped the development team considerably in the refactoring of the website code. Actively participate in meetings and discussions with the development team to plan new projects and improve current ones. The technologies I used and implemented were: JavaScript, Python, Wordpress, MySQL, HTML, CSS.",
+            "date": "Sep 2023 - Feb 2024"
+        },
+        {
+            "icon": "sun",
+            "title": "Costa Rio Parana",
+            "subtitle": "Backend Developer",
+            "description": "Developed comprehensive solutions as a Backend Developer, utilizing Python, Django, MySQL and deploying servers with Nginx on Linux environments. Led the technical implementation of automations, ensuring efficiency and compliance with functional and non- functional requirements.",
+            "date": "Dec 2022 - Ago 2023"
         }
     ],
     "projects": [
         {
-            "icon": "bar-chart-4",
-            "title": "Software random",
-            "subtitle": "Software propiedad de Metacortex",
-            "description": "Herramienta para hacer rico a otras personas.",
+            "icon": "medal",
+            "title": "MarathonMaster",
+            "subtitle": "Software as a Service",
+            "description": "I am working on a robust API in order to create a SaaS designed for sporting event organizers and their respective users. This online platform offers a wide range of solutions for both end users and customers of the service.",
             "technologies": [
                 {
                     "icon": "devicon-python-plain",
@@ -64,65 +71,43 @@
                 },
                 {
                     "icon": "devicon-django-plain",
-                    "name": "Django"
+                    "name": "Django-REST"
+                },
+                {
+                    "icon": "devicon-postgresql-plain",
+                    "name": "PostgreSQL"
+                },
+                {
+                    "icon": "devicon-docker-plain",
+                    "name": "Docker"
                 }
             ],
             "image": "/project_1.jpg",
-            "url": "https://matrix.fandom.com/wiki/MetaCortex",
-            "github": "https://github.com/thomasanderson"
-        },
-        {
-            "icon": "bug-off",
-            "title": "Hackeo Matrix",
-            "subtitle": "Mi obra maestra",
-            "description": "Migración del Matrix al mundo real y hackeo del sistema ficticio para salvar a la humanidad.",
-            "technologies": [
-                {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Binario"
-                }
-            ],
-            "image": "/project_2.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+            "url": "",
+            "github": ""
         }
     ],
     "training": [
         {
-            "icon": "backpack",
-            "title": "Central West Junior High",
-            "subtitle": "Una escuela",
-            "description": "Aprendí cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
-        },
-        {
             "icon": "graduation-cap",
-            "title": "Owen Patterson High",
-            "subtitle": "Otra escuela",
-            "description": "Aprendí más cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
-        }
-    ],
-    "extras": [
-        {
-            "image": "/extra_1.jpg",
-            "title": "The Matrix",
-            "description": "Aparecí en esta película.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix"
+            "title": "Computer Science Technician Degree",
+            "subtitle": "TECLAB Institute",
+            "description": "Relevant Coursework: C++, Algorithms, Data Structures, Data Bases.",
+            "date": "2023-2024"
         },
         {
-            "image": "/extra_2.jpg",
-            "title": "The Matrix Reloaded",
-            "description": "Y en esta otra.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Reloaded"
+            "icon": "book-marked",
+            "title": "Coderhouse",
+            "subtitle": "Data Engineering Bootcamp",
+            "description": "Relevant Coursework: PostgreSQL, SQLAlchemy, Docker, AirFlow, Amazon Redshift, ETL",
+            "date": "2023"
         },
         {
-            "image": "/extra_3.jpg",
-            "title": "The Matrix Revolutions",
-            "description": "Y en esta más.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Revolutions"
+            "icon": "backpack",
+            "title": "Industrial Engineering",
+            "subtitle": "National University of Litoral FIQ",
+            "description": "Relevant Coursework: Python, Mathematics, Engineering Projects",
+            "date": "2021-2023"
         }
     ]
 }
