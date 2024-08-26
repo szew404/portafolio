@@ -40,7 +40,7 @@ app = rx.App(
         appearance="dark",
         accent_color="jade",
         radius="full",
-        scaling="90%",
+        scaling="110%",
     ),
 )
 
