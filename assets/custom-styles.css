@@ -1,5 +1,5 @@
 @media (max-width: 767px) {
     .rt-AvatarRoot:where(.rt-r-size-8) {
-        display: none;
+        display: none !important;
     }
 }
