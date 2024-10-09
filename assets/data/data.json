@@ -12,7 +12,7 @@
         "github": "https://github.com/gidaszewski",
         "likedin": "https://www.linkedin.com/in/franco-gidaszewski/"
     },
-    "about": "As a seasoned backend developer with experience in web development, I excel in crafting bespoke solutions that empower clients to optimize productivity and streamline operations. Specializing in Python, I am driven by a passion for leveraging cutting-edge technology to deliver tailored software solutions that address the unique needs of businesses.",
+    "about": "Driven Backend Developer with 2+ years of experience in designing and developing APIs and web applications. Skilled in Python and modern backend frameworks, with a proven track record of delivering tailored software solutions that drive user engagement and productivity. Seeking a full-time role in Berlin to contribute to innovative backend projects with a focus on cutting-edge technology and scalable architecture.",
     "technologies": [
         {
             "icon": "devicon-python-plain",
@@ -40,30 +40,30 @@
             "icon": "box",
             "title": "Linkacode",
             "subtitle": "Co-Founder & Backend Engineer",
-            "description": "Linkacode is a side project that I coordinate together with colleagues in which we offer cutting-edge software solutions. My main tasks are to lead and execute the projects following the appropriate methodologies. The last project in which I was part of the development team was the creation and implementation of an API for one of the most important technological universities in Argentina. We improve the productivity of students, professors and university workers thanks to our software. We increased student use of the website by 25% thanks to our API that facilitates quick access to each student's class schedule. The technologies I used and implemented were: Python, Django & Django Rest, PostgreSQL, Linux, Git, Trello.",
+            "description": "Co-founded and led the backend development of a startup offering custom software solutions. Spearheaded the creation and deployment of an API for one of Argentina's top technological universities, im- proving the user experience for students, professors, and administrative staff. Impact: Boosted student engagement on the website by 25% through optimizing access to class schedules. Managed all aspects of project development, ensuring the implementation of best practices in backend architecture and code quality. Tech stack: Python, Django, Django REST Framework, PostgreSQL, Linux, Git, Trello.",
             "date": "February 2024"
         },
         {
             "icon": "graduation-cap",
-            "title": "UTN Haedo",
+            "title": "National Technological University of Haedo",
             "subtitle": "Full Stack Developer",
-            "description": "I developed plugins and web components that helped increase the productivity of the workers using the website. I helped the development team considerably in the refactoring of the website code. Actively participate in meetings and discussions with the development team to plan new projects and improve current ones. The technologies I used and implemented were: JavaScript, Python, Wordpress, MySQL, HTML, CSS.",
+            "description": "Developed custom plugins and web components to enhance the website's functionality, significantly improving the productivity of university employees. Collaborated with a team of developers to refactor legacy code, enhancing the website's performance and maintainability. Regularly contributed to team discussions, providing insights for new features and technical improvements. Tech stack: JavaScript, Python, WordPress, MySQL, HTML, CSS.",
             "date": "Sep 2023 - Feb 2024"
         },
         {
             "icon": "sun",
             "title": "Costa Rio Parana",
             "subtitle": "Backend Developer",
-            "description": "Developed comprehensive solutions as a Backend Developer, utilizing Python, Django, MySQL and deploying servers with Nginx on Linux environments. Led the technical implementation of automations, ensuring efficiency and compliance with functional and non- functional requirements.",
+            "description": "Led backend development efforts, designing and implementing robust solutions using Python and Django. Deployed and managed servers with Nginx on Linux environments, ensuring seamless integration of backen services.",
             "date": "Dec 2022 - Ago 2023"
         }
     ],
     "projects": [
         {
             "icon": "medal",
-            "title": "MarathonMaster",
-            "subtitle": "Software as a Service",
-            "description": "I am working on a robust API in order to create a SaaS designed for sporting event organizers and their respective users. This online platform offers a wide range of solutions for both end users and customers of the service.",
+            "title": "LabelPulse",
+            "subtitle": "Online Platform",
+            "description": "Boost your releases with professional and customized promotional campaigns. The platform makes it easier for record labels to promote new releases, optimizing the management and diffusion through email campaigns aimed at DJs and artists. LabelPulse also offers cloud storage, ensuring that files remain accessible and organized for each campaign.",
             "technologies": [
                 {
                     "icon": "devicon-python-plain",
@@ -71,7 +71,7 @@
                 },
                 {
                     "icon": "devicon-django-plain",
-                    "name": "Django-REST"
+                    "name": "Django"
                 },
                 {
                     "icon": "devicon-postgresql-plain",
@@ -80,6 +80,14 @@
                 {
                     "icon": "devicon-docker-plain",
                     "name": "Docker"
+                },
+                {
+                    "icon": "devicon-digitalocean-original",
+                    "name": "Digital Ocean Spaces"
+                },
+                {
+                    "icon": "devicon-amazonwebservices-plain-wordmark",
+                    "name": "AWS"
                 }
             ],
             "image": "/project_1.jpg",
