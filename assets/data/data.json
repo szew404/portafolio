@@ -82,7 +82,7 @@
                     "name": "ReadTheDocs"
                 }
             ],
-            "image": "/project_2.jpg",
+            "image": "/project_2.png",
             "url": "https://pypi.org/project/djpro/",
             "github": "https://github.com/szew404/djpro"
         },
