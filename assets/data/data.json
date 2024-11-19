@@ -60,6 +60,33 @@
     ],
     "projects": [
         {
+            "icon": "square-chart-gantt",
+            "title": "djpro",
+            "subtitle": "Python CLI command tool",
+            "description": "djpro allows you to create a Django project using a modular and scalable architecture with options like API configuration, DjangoAdminSite custom theme and Docker to optimize your development time.",
+            "technologies": [
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-githubactions-plain",
+                    "name": "GitHub Actions"
+                },
+                {
+                    "icon": "devicon-pypi-plain",
+                    "name": "PyPI"
+                },
+                {
+                    "icon": "devicon-readthedocs-original",
+                    "name": "ReadTheDocs"
+                }
+            ],
+            "image": "/project_2.jpg",
+            "url": "https://pypi.org/project/djpro/",
+            "github": "https://github.com/szew404/djpro"
+        },
+        {
             "icon": "medal",
             "title": "LabelPulse",
             "subtitle": "Online Platform",
@@ -90,9 +117,9 @@
                     "name": "AWS"
                 }
             ],
-            "image": "/project_1.jpg",
-            "url": "",
-            "github": ""
+            "image": "/project_1.png",
+            "url": "https://web.label-pulse.com/",
+            "github": "https://github.com/szew404/LabelPulse"
         }
     ],
     "training": [
