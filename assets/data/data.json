@@ -60,7 +60,7 @@
     ],
     "projects": [
         {
-            "icon": "square-chart-gantt",
+            "icon": "hammer",
             "title": "djpro",
             "subtitle": "Python CLI command tool",
             "description": "djpro allows you to create a Django project using a modular and scalable architecture with options like API configuration, DjangoAdminSite custom theme and Docker to optimize your development time.",
