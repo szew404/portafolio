@@ -13,7 +13,7 @@ DATA = data.data
 
 def index() -> rx.Component:
     return rx.center(
-        # rx.theme_panel(),
+        rx.theme_panel(),
         rx.vstack(
             header(DATA),
             about(DATA.about),
@@ -22,6 +22,7 @@ def index() -> rx.Component:
             info("Work experience", DATA.experience),
             info("Projects", DATA.projects),
             info("Education", DATA.training),
+            extra(DATA.extras),
             rx.divider(),
             footer(DATA.media),
             spacing=Size.MEDIUM.value,

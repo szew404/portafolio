@@ -144,5 +144,25 @@
             "description": "Relevant Coursework: Python, Mathematics, Engineering Projects",
             "date": "2021-2023"
         }
+    ],
+    "extras": [
+        {
+            "image": "/b3.png",
+            "title": "Blog on Medium",
+            "description": "Connect a Django project to a PostgreSQL database in minutes",
+            "url": "https://awstip.com/connect-a-django-project-to-a-postgresql-database-in-minutes-b599cbcf732b"
+        },
+        {
+            "image": "/b2.png",
+            "title": "Blog on Medium (Spanish)",
+            "description": "djpro: Crea un proyecto Django incluyendo Docker con tan solo un comando",
+            "url": "https://medium.com/@gidaszewskifranco/djpro-crea-un-proyecto-django-incluyendo-docker-con-tan-solo-un-comando-1e62b6919c6d"
+        },
+        {
+            "image": "/b1.png",
+            "title": "Blog on Medium (Spanish)",
+            "description": "¿Cómo estructurar tus projectos Django?",
+            "url": "https://medium.com/@gidaszewskifranco/c%C3%B3mo-estructurar-tus-projectos-django-e5a7f6f0be92"
+        }
     ]
 }
