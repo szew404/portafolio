@@ -2,9 +2,7 @@ import json
 
 
 class Media:
-    def __init__(self, email, cv, github, likedin):
-        self.email = email
-        self.cv = cv
+    def __init__(self, github, likedin):
         self.github = github
         self.likedin = likedin
 
