@@ -7,12 +7,33 @@
     "skill": "Backend Developer",
     "location": "Berlin, Germany",
     "media": {
-        "email": "gidaszewskifranco@gmail.com",
-        "cv": "/data/cv.pdf",
         "github": "https://github.com/szew404",
         "likedin": "https://www.linkedin.com/in/franco-gidaszewski/"
     },
-    "about": "Driven Backend Developer with 2+ years of experience in designing and developing APIs and web applications. Skilled in Python and modern backend frameworks, with a proven track record of delivering tailored software solutions that drive user engagement and productivity. Seeking a full-time role in Berlin to contribute to innovative backend projects with a focus on cutting-edge technology and scalable architecture.",
+    "about": "As a seasoned Backend Developer with 3 years of experience in designing and developing APIs and web applications, I excel in crafting bespoke solutions that empower clients to optimize productivity and streamline operations. Specializing in Python, I am driven by a passion for leveraging cutting-edge technology to deliver tailored software solutions that address the unique needs of businesses.",
+    "experience": [
+        {
+            "icon": "sun",
+            "title": "CRP",
+            "subtitle": "Software Developer",
+            "description": "Designed and implemented a REST API to manage the registration of over 1,000 participants for a marathon event, including payroll processing and automated email notifications. Developed and customized an online platform to manage event parameters, pricing, payroll, and participant registrations, significantly enhancing the administrative staff’s user experience and efficiency. Deployed the solution to the cloud, integrating a CI/CD pipeline to streamline development and reduce deployment time. – Impact: Reduced operational expenses, improved the user experience for both event participants and administrative staff, and optimized workflows within the company.",
+            "date": "November 2024"
+        },
+        {
+            "icon": "graduation-cap",
+            "title": "National Technological University of Haedo",
+            "subtitle": "Software Developer",
+            "description": "Spearheaded the creation and deployment of an API for one of Argentina’s top technological universities, improving the user experience for students, professors, and administrative staff. Developed and customized an online platform to manage and extract the content of PDF files. – Impact: Boosted student engagement on the website by 25% through optimizing access to class schedules. Tech stack: Python, Django, Django REST Framework, PostgreSQL, Linux, Git, Trello.",
+            "date": "Feb 2024 - Ago 2024"
+        },
+        {
+            "icon": "graduation-cap",
+            "title": "National Technological University of Haedo",
+            "subtitle": "Web Developer",
+            "description": "Developed custom plugins and web components to enhance the website’s functionality, significantly improving the productivity of university employees. Collaborated with a team of developers to refactor legacy code, enhancing the website’s performance and maintainability. Regularly contributed to team discussions, providing insights for new features and technical improvements. – Impact: Increased visits to the site and improved organization of the communication department. Tech stack: JavaScript, Python, WordPress, MySQL, HTML, CSS.",
+            "date": "Sep 2023 - Feb 2024"
+        }
+    ],
     "technologies": [
         {
             "icon": "devicon-python-plain",
@@ -23,47 +44,28 @@
             "name": "Django-REST"
         },
         {
-            "icon": "devicon-devicon-plain",
-            "name": "FastAPI"
-        },
-        {
             "icon": "devicon-docker-plain",
             "name": "Docker"
         },
         {
-            "icon": "devicon-postgresql-plain",
-            "name": "PostgreSQL"
-        }
-    ],
-    "experience": [
-        {
-            "icon": "box",
-            "title": "Linkacode",
-            "subtitle": "Co-Founder & Backend Engineer",
-            "description": "Co-founded and led the backend development of a startup offering custom software solutions. Spearheaded the creation and deployment of an API for one of Argentina's top technological universities, im- proving the user experience for students, professors, and administrative staff. Impact: Boosted student engagement on the website by 25% through optimizing access to class schedules. Managed all aspects of project development, ensuring the implementation of best practices in backend architecture and code quality. Tech stack: Python, Django, Django REST Framework, PostgreSQL, Linux, Git, Trello.",
-            "date": "February 2024"
+            "icon": "devicon-git-plain",
+            "name": "Git"
         },
         {
-            "icon": "graduation-cap",
-            "title": "National Technological University of Haedo",
-            "subtitle": "Full Stack Developer",
-            "description": "Developed custom plugins and web components to enhance the website's functionality, significantly improving the productivity of university employees. Collaborated with a team of developers to refactor legacy code, enhancing the website's performance and maintainability. Regularly contributed to team discussions, providing insights for new features and technical improvements. Tech stack: JavaScript, Python, WordPress, MySQL, HTML, CSS.",
-            "date": "Sep 2023 - Feb 2024"
+            "icon": "devicon-postman-plain",
+            "name": "Postman"
         },
         {
-            "icon": "sun",
-            "title": "Costa Rio Parana",
-            "subtitle": "Backend Developer",
-            "description": "Led backend development efforts, designing and implementing robust solutions using Python and Django. Deployed and managed servers with Nginx on Linux environments, ensuring seamless integration of backen services.",
-            "date": "Dec 2022 - Ago 2023"
+            "icon": "devicon-trello-plain",
+            "name": "Trello"
         }
     ],
     "projects": [
         {
             "icon": "hammer",
             "title": "djpro",
-            "subtitle": "Python CLI command tool",
-            "description": "djpro allows you to create a Django project using a modular and scalable architecture with options like API configuration, DjangoAdminSite custom theme and Docker to optimize your development time.",
+            "subtitle": "open-source Python CLI command tool",
+            "description": "Dj-Pro is a tool designed for programmers, which helps to optimize the creation and configuration time of a Django project using a modular and scalable structure. It also allows you to integrate the configuration of technologies such as Docker or Django Rest Framework just by adding a command.",
             "technologies": [
                 {
                     "icon": "devicon-python-plain",
@@ -80,6 +82,10 @@
                 {
                     "icon": "devicon-readthedocs-original",
                     "name": "ReadTheDocs"
+                },
+                {
+                    "icon": "devicon-trello-plain",
+                    "name": "Trello"
                 }
             ],
             "image": "/project_2.png",
@@ -89,7 +95,7 @@
         {
             "icon": "medal",
             "title": "LabelPulse",
-            "subtitle": "Online Platform",
+            "subtitle": "Online Platform - In progress",
             "description": "Boost your releases with professional and customized promotional campaigns. The platform makes it easier for record labels to promote new releases, optimizing the management and diffusion through email campaigns aimed at DJs and artists. LabelPulse also offers cloud storage, ensuring that files remain accessible and organized for each campaign.",
             "technologies": [
                 {
@@ -117,9 +123,27 @@
                     "name": "AWS"
                 }
             ],
-            "image": "/project_1.png",
-            "url": "https://web.label-pulse.com/",
-            "github": "https://github.com/szew404/LabelPulse"
+            "image": "/project_1.png"
+        }
+    ],
+    "extras": [
+        {
+            "image": "/b3.png",
+            "title": "Read on Medium (English)",
+            "description": "Connect a Django project to a PostgreSQL database in minutes",
+            "url": "https://awstip.com/connect-a-django-project-to-a-postgresql-database-in-minutes-b599cbcf732b"
+        },
+        {
+            "image": "/b2.png",
+            "title": "Read on Medium (Spanish)",
+            "description": "djpro: Crea un proyecto Django incluyendo Docker con tan solo un comando",
+            "url": "https://medium.com/@gidaszewskifranco/djpro-crea-un-proyecto-django-incluyendo-docker-con-tan-solo-un-comando-1e62b6919c6d"
+        },
+        {
+            "image": "/b1.png",
+            "title": "Read on Medium (Spanish)",
+            "description": "¿Cómo estructurar tus projectos Django?",
+            "url": "https://medium.com/@gidaszewskifranco/c%C3%B3mo-estructurar-tus-projectos-django-e5a7f6f0be92"
         }
     ],
     "training": [
@@ -143,26 +167,6 @@
             "subtitle": "National University of Litoral FIQ",
             "description": "Relevant Coursework: Python, Mathematics, Engineering Projects",
             "date": "2021-2023"
-        }
-    ],
-    "extras": [
-        {
-            "image": "/b3.png",
-            "title": "Blog on Medium",
-            "description": "Connect a Django project to a PostgreSQL database in minutes",
-            "url": "https://awstip.com/connect-a-django-project-to-a-postgresql-database-in-minutes-b599cbcf732b"
-        },
-        {
-            "image": "/b2.png",
-            "title": "Blog on Medium (Spanish)",
-            "description": "djpro: Crea un proyecto Django incluyendo Docker con tan solo un comando",
-            "url": "https://medium.com/@gidaszewskifranco/djpro-crea-un-proyecto-django-incluyendo-docker-con-tan-solo-un-comando-1e62b6919c6d"
-        },
-        {
-            "image": "/b1.png",
-            "title": "Blog on Medium (Spanish)",
-            "description": "¿Cómo estructurar tus projectos Django?",
-            "url": "https://medium.com/@gidaszewskifranco/c%C3%B3mo-estructurar-tus-projectos-django-e5a7f6f0be92"
         }
     ]
 }
